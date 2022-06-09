@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+    <title>Gustavo Filipe Tardin de Paula</title>
+    </head>
+    <body>
+        <h1>Gustavo Tardin</h1>
+     <img id="Gustavo" src="https://ca.slack-edge.com/TMDDFEPFU-U03H9LD05QQ-afb99e5386c0-512" alt="Eu na praia" width="200px">
+      <h3> Meu nome é Gustavo e tenho 18 anos, atualmente cursando programação pela trybe. <br> Sou nascido e criado em Nova Friburgo, Rj. </h3>
+
+       <br> <h2><strong>Habilidades</strong></h2>
+       <ul>
+           <li>Fluente em Inglês</li>
+           <li>Ótimo comunicador</li>
+           <li>Experiência com mercado financeiro</li>
+           <li><strong>Experiência de 2 anos como vendedor</strong></li>
+           <li>Experiência de 2 anos como gerente de estoque</li>
+           <li>Git</li>
+       </ul>
+       <p>Além de ser apaixonado,eu tenho <strong>grande facilidade em aprender coisas novas</strong>, já tendo aprendido sozinho a jogar <a href="https://www.chess.com/member/gustavotardin" target="_blank" >Xadrez</a>, falar inglês e a jogar Poker.
+        <br> <h3>CONTATO</h3>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/gustavo-filipe-tardin-de-paula-742378224/" target="_blank" >Linkedin</a></li>
+        <li><a href="https://www.instagram.com/gustavo_tardin/" target="_blank" >Instagram</a></li>
+        <li><a href="https://twitter.com/GustavoTardin5" target="_blank">Twitter</a></li>
+        <li><a href="https://github.com/GustavoTardin" target="_blank" >Github</a></li>
+        <ul>
+
+        <br><p> Fico aguardando contato, <a href="#Gustavo">Eu</a> vou responder o mais rápido possível.</p>
+
