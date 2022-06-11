@@ -1,0 +1,45 @@
+
+
+body{
+background-color: darkred;
+    color: white;
+}
+
+h1 {
+    font-family:'Vast Shadow', cursive,sans-serif;
+    color: black;
+}
+#Descrição{
+    font-family:'RocknRoll One', sans-serif;
+}
+#Nascimento {
+font-family:Cedarville,sans-serif ;
+font-weight: 700;
+color: black;
+}
+ul{
+    font-family: 'Shojumaru', cursive,sans-serif;
+    font-size: 15px;
+}
+p{
+    font-size: 20px;
+}
+.Botão{
+    background-color: blue;
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 50%;
+
+}
+#Git{
+    background-color: black;
+    color: white;
+}
+#Linkedin{
+    background-color: cornflowerblue;
+}
+#Insta{
+    background-color:#f09433;
+}
