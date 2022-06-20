@@ -1,0 +1,5 @@
+div:hover{
+    border: 5px solid;
+    border-color: purple;
+    border-width: 10px;
+}
