@@ -12,3 +12,6 @@ li:active{
 ul,ol{
     list-style: none;
 }
+body{
+    background-color: purple;
+}
