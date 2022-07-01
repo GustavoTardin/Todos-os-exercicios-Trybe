@@ -115,10 +115,22 @@
       main.appendChild(h3);
     }
 
+const h1 = document.querySelector('h1');
+h1.className = 'title';
 
+const h3s = document.getElementsByTagName('h3');
+for(let index in h3s){
+  h3s[index].className = 'description';
+}
 
+main.removeChild(sessao2);
 
+sessao3.style.marginRight = 'auto';
 
+principal.style.backgroundColor = 'green';
+
+ul.lastChild.remove();
+ul.lastChild.remove();
 
   </script>
 </body>
