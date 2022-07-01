@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Exercício 5.2</title>
+  <style>
+    section {
+      border-color: black;
+      border-style: solid;
+    }
+
+    .title {
+      text-align: center;
+    }
+
+    .main-content {
+      background-color: yellow;
+    }
+
+    .main-content .center-content {
+      background-color: red;
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .main-content .center-content p {
+      font-style: italic;
+    }
+
+    .main-content .left-content {
+      background-color: green;
+      width: 60%;
+      margin-left: 0;
+      margin-right: auto;
+    }
+
+    .main-content .left-content .small-image {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 100%;
+    }
+
+    .main-content .right-content {
+      background-color: blue;
+      width: 60%;
+      margin-left: auto;
+      margin-right: 0;
+    }
+
+    .main-content .description {
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <script>
+    // COLOQUE SEU CÓDIGO AQUI
+    let titulo = document.createElement('h1');
+    titulo.innerText = 'Exercício 5.2 - JavaScript DOM ';
+    const body = document.getElementsByTagName('body')[0];
+    body.appendChild(titulo);
+
+    let principal = document.createElement('main');
+    principal.className = 'main-content';
+    body.appendChild(principal);
+
+    let sessao = document.createElement('section');
+    sessao.className = 'center-content';
+    const main = document.getElementsByTagName('main')[0];
+    main.appendChild(sessao);
+
+    let paragrafo = document.createElement('p');
+    paragrafo.innerText = 'Programação é demais!!!';
+    const section = document.getElementsByTagName('section')[0];
+    section.appendChild(paragrafo);
+
+    let sessao2 = document.createElement('section');
+    sessao2.className = 'left-content';
+    main.appendChild(sessao2);
+
+    let sessao3 = document.createElement('section');
+    sessao3.className = 'right-content';
+    main.appendChild(sessao3);
+
+    let imagem = document.createElement('img');
+    imagem.src = 'https://picsum.photos/200'
+    imagem.className = 'small-image';
+    const sectionLeft = document.getElementsByTagName('section')[1];
+    sectionLeft.appendChild(imagem);
+
+    let ul = document.createElement('ul');
+    const sectionRight = document.getElementsByTagName('section')[2];
+    sectionRight.appendChild(ul);
+
+    const lista = document.getElementsByTagName('ul')[0];
+
+    const arrayNumbers = ['Um', 'Dois', 'Três', 'Quatro', 'Cinco', 'Seis',
+      'Sete', 'Oito', 'Nove', 'Dez']
+    for (let index in arrayNumbers) {
+      let linha = arrayNumbers[index];
+      let extenso = document.createElement('li');
+      extenso.innerText = linha;
+
+      lista.appendChild(extenso);
+    }
+  
+    for(let index = 0; index < 3; index += 1){
+      let h3 = document.createElement('h3')
+      h3.innerHTML = 'Títulos Terciários'
+      main.appendChild(h3);
+    }
+
+
+
+
+
+
+  </script>
+</body>
+
+</html>
