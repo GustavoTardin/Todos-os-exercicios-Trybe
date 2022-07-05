@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <header>
+      <h2 id="page-title">Título</h2>
+      <p class="paragraph">Dê uma cor para este parágrafo!</p>
+      <h4 id="subtitle">Subtítulo</h4>
+      <p class="paragraph">Segundo parágrafo!</p>
+    </header>
+    <script>
+   let primeiroParagrafo = document.getElementsByTagName("p")[0];
+primeiroParagrafo.style.backgroundColor = "purple";
+let subtitulo = document.getElementsByTagName("h4")[0];
+subtitulo.style.color = "green";
+      
+
+    </script>
+  </body>
+</html>
+
+
+
+
+
+
+document.getElementById("header-container").style.backgroundColor = "green";
+
+const emergencyTasks = document.getElementsByClassName('emergency-tasks')[0];
+emergencyTasks.style.backgroundColor = 'pink';
+
+const noEmergencyTasks = document.querySelector('.no-emergency-tasks');
+noEmergencyTasks.style.backgroundColor = 'rgb(249, 219, 94)';
+
+const tituloNoEmergencyTasks = doument.querySelectorAll('.no-emergency-tasks h3');
+for(let index in tituloNoEmergencyTasks){
+    tituloNoEmergencyTasks[index].style.backgroundColor = 'black';
+}
+
+const titulo = document.querySelectorAll('.emergency-tasks h3');
+for(let index in titulo){
+    titulo[index].style.backgroundColor = "purple";
+}
+
