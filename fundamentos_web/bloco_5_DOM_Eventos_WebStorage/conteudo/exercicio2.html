@@ -17,3 +17,27 @@ subtitulo.style.color = "green";
     </script>
   </body>
 </html>
+
+
+
+
+
+
+document.getElementById("header-container").style.backgroundColor = "green";
+
+const emergencyTasks = document.getElementsByClassName('emergency-tasks')[0];
+emergencyTasks.style.backgroundColor = 'pink';
+
+const noEmergencyTasks = document.querySelector('.no-emergency-tasks');
+noEmergencyTasks.style.backgroundColor = 'rgb(249, 219, 94)';
+
+const tituloNoEmergencyTasks = doument.querySelectorAll('.no-emergency-tasks h3');
+for(let index in tituloNoEmergencyTasks){
+    tituloNoEmergencyTasks[index].style.backgroundColor = 'black';
+}
+
+const titulo = document.querySelectorAll('.emergency-tasks h3');
+for(let index in titulo){
+    titulo[index].style.backgroundColor = "purple";
+}
+
